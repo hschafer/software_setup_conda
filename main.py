@@ -15,8 +15,8 @@ EXPECTED_MINOR = 9
 
 
 def main():
-    print("Main runs!!!")
-    foo()
+    print("Main runs!!!");
+    foo();
 
     version = sys.version_info
     if version.major != EXPECTED_MAJOR or version.minor != EXPECTED_MINOR:
